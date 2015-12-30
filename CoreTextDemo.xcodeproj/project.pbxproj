@@ -13,6 +13,7 @@
 		0652EC5A1C3281CF00446AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0652EC581C3281CF00446AA7 /* Main.storyboard */; };
 		0652EC5C1C3281CF00446AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0652EC5B1C3281CF00446AA7 /* Assets.xcassets */; };
 		0652EC5F1C3281CF00446AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0652EC5D1C3281CF00446AA7 /* LaunchScreen.storyboard */; };
+		0652EC681C3281F200446AA7 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0652EC671C3281F200446AA7 /* CTDisplayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0652EC5B1C3281CF00446AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0652EC5E1C3281CF00446AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0652EC601C3281CF00446AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0652EC661C3281F200446AA7 /* CTDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
+		0652EC671C3281F200446AA7 /* CTDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				0652EC5D1C3281CF00446AA7 /* LaunchScreen.storyboard */,
 				0652EC601C3281CF00446AA7 /* Info.plist */,
 				0652EC4F1C3281CF00446AA7 /* Supporting Files */,
+				0652EC661C3281F200446AA7 /* CTDisplayView.h */,
+				0652EC671C3281F200446AA7 /* CTDisplayView.m */,
 			);
 			path = CoreTextDemo;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				0652EC571C3281CF00446AA7 /* ViewController.m in Sources */,
 				0652EC541C3281CF00446AA7 /* AppDelegate.m in Sources */,
+				0652EC681C3281F200446AA7 /* CTDisplayView.m in Sources */,
 				0652EC511C3281CF00446AA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
